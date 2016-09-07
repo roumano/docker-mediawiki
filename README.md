@@ -85,7 +85,7 @@ To use with an external database server, use `MEDIAWIKI_DB_HOST` (along with
 `MEDIAWIKI_DB_USER` and `MEDIAWIKI_DB_PASSWORD` if necessary):
 
     docker run --name some-mediawiki \
-        -e MEDIAWIKI_DB_HOST=10.0.0.1
+        -e MEDIAWIKI_DB_HOST=10.0.0.1 \
         -e MEDIAWIKI_DB_PORT=3306 \
         -e MEDIAWIKI_DB_USER=app \
         -e MEDIAWIKI_DB_PASSWORD=secure \
